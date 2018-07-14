@@ -23,3 +23,4 @@ FOUNDATION_EXPORT const unsigned char AWSKinesisVideoVersionString[];
 
 #import <AWSCore/AWSCore.h>
 #import "AWSKinesisVideoService.h"
+
