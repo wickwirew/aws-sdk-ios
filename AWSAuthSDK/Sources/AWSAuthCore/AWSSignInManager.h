@@ -50,6 +50,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, weak) id<AWSSignInDelegate> delegate;
 
+/**
+ * This method must be called when the AWSSignInProvider completes login.
+ * It invalidates the cached temporary credentials.
+ */
+- (void)completeLogin;
+
 /*
  * Fetches the shared instance of `AWSSignInManager`.
  */
